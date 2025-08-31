@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java-class.iml" filepath="$PROJECT_DIR$/Java-class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sheriyans/Sheriyans.iml" filepath="$PROJECT_DIR$/Sheriyans/Sheriyans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatgtp-question/chatgtp-question.iml" filepath="$PROJECT_DIR$/chatgtp-question/chatgtp-question.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class-14/class-14.iml" filepath="$PROJECT_DIR$/class-14/class-14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class-15/class-15.iml" filepath="$PROJECT_DIR$/class-15/class-15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class-7/class-7.iml" filepath="$PROJECT_DIR$/class-7/class-7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class10/class10.iml" filepath="$PROJECT_DIR$/class10/class10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class11/class11.iml" filepath="$PROJECT_DIR$/class11/class11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class12/class12.iml" filepath="$PROJECT_DIR$/class12/class12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class13/class13.iml" filepath="$PROJECT_DIR$/class13/class13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class2/class2.iml" filepath="$PROJECT_DIR$/class2/class2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class4/class4.iml" filepath="$PROJECT_DIR$/class4/class4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class5/class5.iml" filepath="$PROJECT_DIR$/class5/class5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class6/class6.iml" filepath="$PROJECT_DIR$/class6/class6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class8/class8.iml" filepath="$PROJECT_DIR$/class8/class8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class9/class9.iml" filepath="$PROJECT_DIR$/class9/class9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mcq/mcq.iml" filepath="$PROJECT_DIR$/mcq/mcq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/revision/revision.iml" filepath="$PROJECT_DIR$/revision/revision.iml" />
+    </modules>
+  </component>
+</project>
