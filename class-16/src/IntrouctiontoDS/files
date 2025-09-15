@@ -1,0 +1,66 @@
+Array
+ An array is a linear data structure used to store a collection of elements
+ of the same data type in contiguous memory locations.
+ Arrays in Java are non-primitive data types and it can store
+ both primitive and non-primitive types of data in it. They are fixed in
+ size, meaning that when you create an array you need to give specific
+ size and you cannot change the size later.
+
+ Declaring an Array
+ DataType[] arrayName;
+
+Creating an Array
+ After declaring an array, you need to create an actual instance of the
+ array with a specific size using the new keyword. For example, to create
+ an array of integers with a size of 5:
+ int[] numbers = new int[5];
+
+
+size and initialization can't be done together
+  int[] arr = new int[3]{1, 2, 3}; // compilation err
+  // You can to this
+  int[] arr = new int[]{1, 2, 3};
+  int[] arr = {1, 2, 3};
+  Stack memory holds the references while Heap memory holds the actual
+  object
+
+Stack: It is memory in which the size of the stack is limited and
+ predefined during program execution. Exceeding this limit can result in
+ a StackOverflowError(DTL).
+ Heap: The heap memory in Java can grow and shrink dynamically(DTL).
+ ● Reference of the array is stored on the stack(int[] arr).
+ ● Reference is essentially a memory address that points to the
+ location in the heap where the actual array object is stored.
+ Address
+ Contiguous Elements: The elements of the array are stored in
+ contiguous memory locations. This means that the memory addresses
+ for each element are sequential. The memory address of the first
+ element in the array is the base address of the array.
+  Internally the address is in hexadecimal number (combination of
+  alphabets & numeric characters) this is just for your understanding (we
+  take 100,104,108 etc).
+  In Java you cannot access the memory directly, you generally work with
+  higher-level abstractions, and the specifics of memory addresses are
+  hidden from you & handled by the Java Virtual Machine (JVM).
+
+Elements in the array are accessed by their index. When you use an
+ index to access an element, Java calculates the memory address of that
+ element using the base address of the array and the size of the
+ elements.
+ Address = Base address + (index * 4)
+ Address of 1st index = 100 + (1*4) = 104
+ Enhancedforloop|| for-each loop
+ The for-each also called as enhanced for loop, was introduced in Java 5.
+ It is one of the alternative approaches that is used for traversing arrays.
+ Traverse the array without using the index & makes the code simple as
+ it reduces the code length.
+ Syntax:
+ for(datatype element : arrayName) {
+ // Code
+ }
+ Example:
+ int arr[] = {1, 2, 3};
+ for (int elem : arr) {
+ System.out.print(elem + ", ");
+ }
+ Output: 1, 2,
